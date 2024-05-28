@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Rainy Day</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Poppins', sans-serif;
+        }
+        .rainyimg {
+            position: relative;
+            width: 80%; /* Adjusted width */
+            max-width: 800px; /* Limit maximum width */
+            height: auto; /* Let the height scale with the width */
+            margin: 0 auto; /* Center horizontally */
+            overflow: hidden;
+        }
+        .rainyimg img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bolder;
+            color: #0b0b0b;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tomorrow forecast calls for shower!!!</h1>
+    <div class="rainyimg">
+        <img src="../static/rainy.gif">
+    </div>
+</body>
+</html>
